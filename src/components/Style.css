@@ -1,0 +1,75 @@
+.paint{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2vw;
+    
+}
+.button{
+    display: none;
+}
+.category__content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.category{
+  text-align: center;  
+}
+
+.paintInfo__about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.header__wrapper{
+    width: 100vw;
+    height: 6.7vw;
+    background-color: black;
+}
+.burger{
+    max-width: 5vw;
+    max-height: 5vw;
+    margin-right: auto;
+}
+.burger__link{
+    color: white;
+    font-size: 1.5vw;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 2.2vw;
+    padding: 0px 0px 0px 3vw;
+}
+.burger__wrapper{
+    width: 20vw;
+    height: 20vw;
+    background-color: black;
+    opacity: 0.8;
+    position: relative;
+    z-index: 5;
+    transform: translateX(-100%);
+}
+.burger__close{
+    font-size: 2vw;
+    color: white;
+    text-align: right;
+    margin-right: 3vw;
+}
+.aboutMe{
+    display: flex;
+    flex-direction: row;
+}
+.aboutMe__text{
+    max-width: 50%;
+    padding: 2vw 2vw 2vw 2vw;
+    margin-right: 10vw;
+}
+.myFoto{
+    max-width: 25vw;
+    max-height: 25vw;
+    border-radius: 100px;
+}
